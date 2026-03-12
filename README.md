@@ -38,6 +38,23 @@ sc add vocab
 sc review
 ```
 
+### Load the example curriculum
+
+The repository includes sample CSVs in `sample_curriculum/`. Import them with:
+
+```bash
+sc import vocab sample_curriculum/vocab.csv
+sc import char sample_curriculum/char.csv
+sc import sentence sample_curriculum/sentence.csv
+```
+
+You can then inspect the imported notes and due cards with:
+
+```bash
+sc list notes
+sc list due
+```
+
 ## Development Setup
 
 For editable development inside a Conda environment:
