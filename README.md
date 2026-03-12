@@ -11,26 +11,20 @@
 - CSV import and interactive note creation/editing
 - Review stats and due-card listings
 
-## Conda Package
+## Conda Environment
 
-This repository now includes a Conda recipe at `recipe/meta.yaml`.
+`conda build recipe` is slow because it does full package-build work: it creates isolated build/test environments, runs packaging hooks, and validates an installable Conda artifact. That is useful for publishing a Conda package, but it is more machinery than this repo needs.
 
-### Build the package locally
+This repository now uses a minimal Conda environment spec in `environment.yml` instead. It creates a Python environment and installs this checkout with `pip -e .`.
 
-```bash
-conda create -n sc-build python=3.11 conda-build pytest -y
-conda activate sc-build
-conda build recipe
-```
-
-### Install the locally built package
+### Create the environment
 
 ```bash
-conda activate sc-build
-conda install --use-local study-chinese-cli
+conda env create -f environment.yml
+conda activate sc
 ```
 
-After installation, initialize the database and start using the CLI:
+After activation, initialize the database and start using the CLI:
 
 ```bash
 sc init
@@ -57,11 +51,11 @@ sc list due
 
 ## Development Setup
 
-For editable development inside a Conda environment:
+For development and tests, start from the base Conda environment and add dev dependencies:
 
 ```bash
-conda create -n sc-dev python=3.11 pytest -y
-conda activate sc-dev
+conda env create -f environment.yml
+conda activate sc
 pip install -e ".[dev]"
 ```
 
@@ -76,7 +70,7 @@ pytest
 - `src`: application source
 - `tests`: automated test coverage
 - `sample_curriculum`: example CSV inputs
-- `recipe`: Conda packaging files
+- `environment.yml`: minimal Conda environment specification
 
 ## Saved Design Notes
 
