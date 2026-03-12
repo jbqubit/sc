@@ -1,0 +1,51 @@
+hanzi,pinyin,english,example_cn,example_en,tags,source
+你好,ni3 hao3,hello,你好！,Hello!,"grade3,greetings",grade3_sample
+谢谢,xie4 xie,thank you,谢谢你。,Thank you.,"grade3,greetings",grade3_sample
+再见,zai4 jian4,goodbye,再见！,Goodbye!,"grade3,greetings",grade3_sample
+请,qing3,please,请坐。,Please sit.,"grade3,classroom",grade3_sample
+是,shi4,to be,我是学生。,I am a student.,"grade3,grammar",grade3_sample
+不,bu4,no; not,我不累。,I am not tired.,"grade3,grammar",grade3_sample
+有,you3,to have,我有一本书。,I have a book.,"grade3,grammar",grade3_sample
+我,wo3,I; me,我是三年级学生。,I am a third-grade student.,"grade3,pronouns",grade3_sample
+你,ni3,you,你叫什么名字？,What is your name?,"grade3,pronouns",grade3_sample
+他,ta1,he; him,他是我哥哥。,He is my older brother.,"grade3,pronouns",grade3_sample
+她,ta1,she; her,她喜欢画画。,She likes drawing.,"grade3,pronouns",grade3_sample
+我们,wo3 men,we; us,我们一起读书。,We read together.,"grade3,pronouns",grade3_sample
+名字,ming2 zi,name,我的名字叫安娜。,My name is Anna.,"grade3,school",grade3_sample
+老师,lao3 shi1,teacher,老师来了。,The teacher has arrived.,"grade3,school",grade3_sample
+学生,xue2 sheng,student,他是好学生。,He is a good student.,"grade3,school",grade3_sample
+学校,xue2 xiao4,school,我去学校上课。,I go to school for class.,"grade3,school",grade3_sample
+教室,jiao4 shi4,classroom,教室很大。,The classroom is big.,"grade3,school",grade3_sample
+书,shu1,book,这本书很好看。,This book is very good.,"grade3,school",grade3_sample
+笔,bi3,pen; pencil,我的笔在桌子上。,My pen is on the desk.,"grade3,school",grade3_sample
+桌子,zhuo1 zi,table; desk,书包在桌子下面。,The schoolbag is under the desk.,"grade3,school",grade3_sample
+书包,shu1 bao1,schoolbag,我的书包是蓝色的。,My schoolbag is blue.,"grade3,school",grade3_sample
+爸爸,ba4 ba,father; dad,我爸爸会做饭。,My dad can cook.,"grade3,family",grade3_sample
+妈妈,ma1 ma,mother; mom,妈妈在家里。,Mom is at home.,"grade3,family",grade3_sample
+哥哥,ge1 ge,older brother,哥哥跑得很快。,My older brother runs fast.,"grade3,family",grade3_sample
+姐姐,jie3 jie,older sister,姐姐喜欢音乐。,My older sister likes music.,"grade3,family",grade3_sample
+朋友,peng2 you,friend,他是我的朋友。,He is my friend.,"grade3,friends",grade3_sample
+猫,mao1,cat,小猫在睡觉。,The kitten is sleeping.,"grade3,animals",grade3_sample
+狗,gou3,dog,小狗在门口。,The puppy is at the door.,"grade3,animals",grade3_sample
+鸟,niao3,bird,鸟在树上唱歌。,A bird is singing in the tree.,"grade3,animals",grade3_sample
+水,shui3,water,请喝水。,Please drink water.,"grade3,food",grade3_sample
+米饭,mi3 fan4,rice,我喜欢吃米饭。,I like eating rice.,"grade3,food",grade3_sample
+苹果,ping2 guo3,apple,苹果很甜。,The apple is sweet.,"grade3,food",grade3_sample
+牛奶,niu2 nai3,milk,早上我喝牛奶。,I drink milk in the morning.,"grade3,food",grade3_sample
+红色,hong2 se4,red,这朵花是红色的。,This flower is red.,"grade3,colors",grade3_sample
+蓝色,lan2 se4,blue,天空是蓝色的。,The sky is blue.,"grade3,colors",grade3_sample
+绿色,lu:4 se4,green,树叶是绿色的。,The leaves are green.,"grade3,colors",grade3_sample
+大,da4,big,学校很大。,The school is big.,"grade3,adjectives",grade3_sample
+小,xiao3,small,我的猫很小。,My cat is small.,"grade3,adjectives",grade3_sample
+多,duo1,many; much,这里有很多书。,There are many books here.,"grade3,adjectives",grade3_sample
+少,shao3,few; little,水不多了。,There is not much water left.,"grade3,adjectives",grade3_sample
+今天,jin1 tian1,today,今天星期一。,Today is Monday.,"grade3,time",grade3_sample
+明天,ming2 tian1,tomorrow,明天我们去公园。,Tomorrow we are going to the park.,"grade3,time",grade3_sample
+昨天,zuo2 tian1,yesterday,昨天我看书了。,I read a book yesterday.,"grade3,time",grade3_sample
+早上,zao3 shang,morning,早上好！,Good morning!,"grade3,time",grade3_sample
+晚上,wan3 shang,evening,晚上我们回家。,We go home in the evening.,"grade3,time",grade3_sample
+一,yi1,one,我有一个苹果。,I have one apple.,"grade3,numbers",grade3_sample
+二,er4,two,桌子上有两本书。,There are two books on the desk.,"grade3,numbers",grade3_sample
+三,san1,three,我有三只铅笔。,I have three pencils.,"grade3,numbers",grade3_sample
+四,si4,four,四个学生来了。,Four students came.,"grade3,numbers",grade3_sample
+五,wu3,five,我会写五个字。,I can write five characters.,"grade3,numbers",grade3_sample

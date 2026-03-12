@@ -1,0 +1,25 @@
+sentence_cn,sentence_pinyin,sentence_en,focus_term,notes,tags,source
+你好！,ni3 hao3!,Hello!,你好,,"grade3,greetings",grade3_sample
+谢谢老师。,xie4 xie lao3 shi1.,"Thank you, teacher.",谢谢,,"grade3,greetings",grade3_sample
+我是三年级学生。,wo3 shi4 san1 nian2 ji2 xue2 sheng.,I am a third-grade student.,学生,,"grade3,introductions",grade3_sample
+你叫什么名字？,ni3 jiao4 shen2 me ming2 zi?,What is your name?,名字,,"grade3,introductions",grade3_sample
+我有一本书。,wo3 you3 yi4 ben3 shu1.,I have one book.,书,,"grade3,school",grade3_sample
+书包在桌子上。,shu1 bao1 zai4 zhuo1 zi shang4.,The schoolbag is on the desk.,书包,,"grade3,school",grade3_sample
+老师在教室里。,lao3 shi1 zai4 jiao4 shi4 li3.,The teacher is in the classroom.,老师,,"grade3,school",grade3_sample
+我喜欢我的学校。,wo3 xi3 huan1 wo3 de xue2 xiao4.,I like my school.,学校,,"grade3,school",grade3_sample
+爸爸喝水。,ba4 ba he1 shui3.,Dad drinks water.,水,,"grade3,family",grade3_sample
+妈妈给我一个苹果。,ma1 ma gei3 wo3 yi2 ge4 ping2 guo3.,Mom gives me an apple.,苹果,,"grade3,family",grade3_sample
+哥哥有一只狗。,ge1 ge you3 yi4 zhi1 gou3.,My older brother has a dog.,狗,,"grade3,family",grade3_sample
+姐姐喜欢红色的书包。,jie3 jie xi3 huan1 hong2 se4 de shu1 bao1.,My older sister likes the red schoolbag.,红色,,"grade3,colors",grade3_sample
+小猫在门口睡觉。,xiao3 mao1 zai4 men2 kou3 shui4 jiao4.,The little cat is sleeping at the doorway.,猫,,"grade3,animals",grade3_sample
+鸟在树上唱歌。,niao3 zai4 shu4 shang4 chang4 ge1.,A bird sings in the tree.,鸟,,"grade3,animals",grade3_sample
+今天星期一。,jin1 tian1 xing1 qi1 yi1.,Today is Monday.,今天,,"grade3,time",grade3_sample
+明天我们去公园。,ming2 tian1 wo3 men qu4 gong1 yuan2.,Tomorrow we are going to the park.,明天,,"grade3,time",grade3_sample
+昨天我看书了。,zuo2 tian1 wo3 kan4 shu1 le.,I read a book yesterday.,昨天,,"grade3,time",grade3_sample
+早上我喝牛奶。,zao3 shang wo3 he1 niu2 nai3.,I drink milk in the morning.,牛奶,,"grade3,time",grade3_sample
+晚上我们回家。,wan3 shang wo3 men hui2 jia1.,We go home in the evening.,晚上,,"grade3,time",grade3_sample
+今天天气很好。,jin1 tian1 tian1 qi4 hen3 hao3.,The weather is good today.,天气,,"grade3,weather",grade3_sample
+外面下雨了。,wai4 mian4 xia4 yu3 le.,It is raining outside.,雨,,"grade3,weather",grade3_sample
+这朵花是蓝色的。,zhe4 duo3 hua1 shi4 lan2 se4 de.,This flower is blue.,蓝色,,"grade3,colors",grade3_sample
+我有三个朋友。,wo3 you3 san1 ge4 peng2 you.,I have three friends.,朋友,,"grade3,friends",grade3_sample
+我们一起读书。,wo3 men yi4 qi3 du2 shu1.,We read together.,我们,,"grade3,friends",grade3_sample
