@@ -1,6 +1,6 @@
 # Study Chinese CLI
 
-`sc` is a standalone Python CLI for reviewing Chinese flashcards with an ANKI-inspired spaced repetition loop.
+`sc` is a standalone Python CLI for reviewing Chinese flashcards with an Anki-inspired spaced repetition loop.
 
 ## Features
 
@@ -11,17 +11,56 @@
 - CSV import and interactive note creation/editing
 - Review stats and due-card listings
 
-## Quick Start
+## Conda Package
+
+This repository now includes a Conda recipe at `recipe/meta.yaml`.
+
+### Build the package locally
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -e ".[dev]"
+conda create -n sc-build python=3.11 conda-build pytest -y
+conda activate sc-build
+conda build recipe
+```
+
+### Install the locally built package
+
+```bash
+conda activate sc-build
+conda install --use-local study-chinese-cli
+```
+
+After installation, initialize the database and start using the CLI:
+
+```bash
 sc init
 sc add vocab
 sc review
 ```
 
+## Development Setup
+
+For editable development inside a Conda environment:
+
+```bash
+conda create -n sc-dev python=3.11 pytest -y
+conda activate sc-dev
+pip install -e ".[dev]"
+```
+
+Run the test suite with:
+
+```bash
+pytest
+```
+
+## Project Layout
+
+- `src/sc`: application source
+- `tests`: automated test coverage
+- `sample_curriculum`: example CSV inputs
+- `recipe`: Conda packaging files
+
 ## Saved Design Notes
 
-The planning conversation that defined this project has been summarized in [docs/flashcards-plan.md](/workspace/docs/flashcards-plan.md).
+The planning conversation that defined this project has been summarized in [docs/flashcards-plan.md](/Users/britton/shared/github/jbqubit/sc/docs/flashcards-plan.md).
