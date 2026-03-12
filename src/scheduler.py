@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime, timedelta
 
-from sc.models import GRADES, ScheduleResult
+from src.models import GRADES, ScheduleResult
 
 
 LEARNING_STEPS_MINUTES = (1, 10)

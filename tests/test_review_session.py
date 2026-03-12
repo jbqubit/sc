@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from rich.console import Console
 
-from sc.db import connect
-from sc.repository import Repository
-from sc.review_session import ReviewSession
+from src.db import connect
+from src.repository import Repository
+from src.review_session import ReviewSession
 
 
 class ScriptedIO:

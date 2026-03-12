@@ -3,10 +3,10 @@ from __future__ import annotations
 import sqlite3
 from typing import Any
 
-from sc.cardgen import generate_cards
-from sc.models import row_to_dict
-from sc.scheduler import to_utc_iso, utc_now
-from sc.validators import normalize_tags, validate_note_type, validate_payload
+from src.cardgen import generate_cards
+from src.models import row_to_dict
+from src.scheduler import to_utc_iso, utc_now
+from src.validators import normalize_tags, validate_note_type, validate_payload
 
 
 NOTE_TABLES = {
@@ -332,7 +332,7 @@ class Repository:
         if card_type == "sentence_to_meaning":
             return note["sentence_cn"]
         if card_type == "cloze_focus_term":
-            from sc.cardgen import build_cloze
+            from src.cardgen import build_cloze
 
             return build_cloze(note["sentence_cn"], note.get("focus_term", ""))
         return ""

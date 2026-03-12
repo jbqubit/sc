@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from sc.db import connect
-from sc.importers import import_csv
-from sc.repository import Repository
+from src.db import connect
+from src.importers import import_csv
+from src.repository import Repository
 
 
 def test_import_csv_accepts_valid_and_rejects_invalid_rows(tmp_path: Path):

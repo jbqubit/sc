@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sc.render import render_summary_table
+from src.render import render_summary_table
 
 
 def render_summary(stats: dict) -> None:

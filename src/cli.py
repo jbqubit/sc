@@ -5,13 +5,13 @@ from typing import Annotated
 
 import typer
 
-from sc.config import resolve_db_path
-from sc.db import connect
-from sc.importers import import_csv
-from sc.render import console, render_card, render_note, render_summary_table
-from sc.repository import Repository
-from sc.review_session import ReviewSession
-from sc.stats import render_card_stats, render_daily_stats, render_note_stats, render_summary
+from src.config import resolve_db_path
+from src.db import connect
+from src.importers import import_csv
+from src.render import console, render_card, render_note, render_summary_table
+from src.repository import Repository
+from src.review_session import ReviewSession
+from src.stats import render_card_stats, render_daily_stats, render_note_stats, render_summary
 
 
 app = typer.Typer(help="Standalone Chinese flashcard CLI.")

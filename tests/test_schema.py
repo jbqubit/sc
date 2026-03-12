@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sc.db import connect
+from src.db import connect
 
 
 def test_schema_bootstraps_tables(tmp_path):

@@ -56,7 +56,7 @@ pytest
 
 ## Project Layout
 
-- `src/sc`: application source
+- `src`: application source
 - `tests`: automated test coverage
 - `sample_curriculum`: example CSV inputs
 - `recipe`: Conda packaging files

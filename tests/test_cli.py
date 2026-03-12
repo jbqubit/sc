@@ -4,7 +4,7 @@ from pathlib import Path
 
 from typer.testing import CliRunner
 
-from sc.cli import app
+from src.cli import app
 
 
 runner = CliRunner()

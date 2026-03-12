@@ -3,9 +3,9 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-from sc.models import ImportResult
-from sc.repository import Repository
-from sc.validators import OPTIONAL_COLUMNS, REQUIRED_COLUMNS, normalize_text, validate_import_columns
+from src.models import ImportResult
+from src.repository import Repository
+from src.validators import OPTIONAL_COLUMNS, REQUIRED_COLUMNS, normalize_text, validate_import_columns
 
 
 def import_csv(repo: Repository, note_type: str, path: str | Path, delimiter: str = ",") -> ImportResult:

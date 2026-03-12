@@ -19,11 +19,11 @@ dev = [
 ]
 
 [project.scripts]
-sc = "sc.cli:app"
+sc = "src.cli:app"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/sc"]
+packages = ["src"]
 
 [tool.pytest.ini_options]
-pythonpath = ["src"]
+pythonpath = ["."]
 testpaths = ["tests"]

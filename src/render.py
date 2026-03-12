@@ -8,7 +8,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-from sc.cardgen import build_cloze
+from src.cardgen import build_cloze
 
 
 console = Console()

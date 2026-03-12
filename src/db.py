@@ -3,7 +3,7 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-from sc.schema import ensure_schema
+from src.schema import ensure_schema
 
 
 def connect(db_path: str | Path) -> sqlite3.Connection:

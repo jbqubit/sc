@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sc.cardgen import build_cloze, generate_cards
+from src.cardgen import build_cloze, generate_cards
 
 
 def test_vocab_note_generates_two_cards():

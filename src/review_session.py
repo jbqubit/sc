@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from rich.console import Console
 
-from sc.render import read_key, render_prompt, render_reveal
-from sc.repository import Repository
-from sc.scheduler import schedule
+from src.render import read_key, render_prompt, render_reveal
+from src.repository import Repository
+from src.scheduler import schedule
 
 
 GRADE_KEYS = {"1": "again", "2": "hard", "3": "good", "4": "easy"}

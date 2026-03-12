@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from sc.scheduler import parse_utc_iso, schedule
+from src.scheduler import parse_utc_iso, schedule
 
 
 NOW = datetime(2026, 3, 12, 12, 0, tzinfo=UTC)

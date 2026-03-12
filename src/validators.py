@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Iterable
 
-from sc.models import NOTE_TYPES
+from src.models import NOTE_TYPES
 
 
 REQUIRED_COLUMNS: dict[str, tuple[str, ...]] = {
